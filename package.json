@@ -19,7 +19,6 @@
     "styled-components": "^5.3.9",
     "web-vitals": "^2.1.4"
   },
-  "proxy": "https://tes-url.onrender.com/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
