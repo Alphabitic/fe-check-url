@@ -22,7 +22,7 @@ function App() {
 
   const handleCheckLinks = async () => {
     setLoading(true); // changer le state de loading
-    const response = await fetch('https://tes-url.onrender.com/links');
+    const response = await fetch('https://test-url.onrender.com/links');
     const result = await response.json();
     setTimeout(() => {
       setLoading(false);
